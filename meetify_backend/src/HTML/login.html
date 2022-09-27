@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meetify Login</title>
+    <link rel="stylesheet" href="login-styles.css" />
+  </head>
+
+  <body>
+    <div class="header">
+    <img id="logo-img" src="../tech-logo.png" alt="techquarter-logo" />
+    <!-- <input type="checkbox" id="check" name="check" />
+            <label style="color: #b0b0b0" for="check">Remember me</label><br />
+    </div> -->
+    <!-- <h3>STANDARD USER</h3> -->
+
+    <div id="login-page">
+      <div class="left-panel">
+        <div class="standard-user">
+          <p style="margin-bottom: 50px">LOG IN</p>
+          <form action="/action_page.php">
+            <label for="fname">Email</label><br />
+            <input type="email" id="fname" name="fname" placeholder="Enter email" /><br />
+            <label for="lname">Password</label><br />
+            <input type="password" id="lname" name="lname" placeholder="Enter password" /><br />
+            <input type="checkbox" id="check" name="check" />
+            <label style="color: #b0b0b0" for="check">Remember me</label><br />
+            <input type="submit" value="Log In" />
+          </form>
+          <p style="text-align: center; color: #b0b0b0">Not A Member? Sign up <a style="color: #f9c016" href="./signup.html">Here.</a></p>
+        </div>
+
+        <div class="administrator" style="display: none">
+          <h3>ADMINISTRATOR</h3>
+          <form action="/action_page.php">
+            <label for="fname">Email</label><br />
+            <input type="email" id="fname" name="fname" placeholder="Enter email" /><br />
+            <label for="lname">Password</label><br />
+            <input type="password" id="lname" name="lname" placeholder="Enter password" /><br />
+            <input type="checkbox" id="check" name="check" />
+            <label for="check">&nbsp;Remember me</label><br />
+            <input type="submit" value="Log In" />
+          </form>
+        </div>
+      </div>
+
+      <div class="right-panel">
+        <h1>
+          Welcome!<br />Let's sign in<br />
+          to your<br />
+          account.
+        </h1>
+      </div>
+    </div>
+  </body>
+</html>

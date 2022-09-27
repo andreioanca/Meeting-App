@@ -1,0 +1,24 @@
+.header-actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  h1 {
+    font-size: 55px;
+    line-height: 35px;
+    color: white;
+  }
+
+  .left-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .right-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}

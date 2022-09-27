@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,600;1,500&display=swap");
+* {
+  font-family: "Barlow", sans-serif;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 1600px) {
+  th:last-child,
+  td:last-child {
+    margin: 0 0 0 0;
+  }
+}
+
+@media only screen and (width: 1920px) {
+  th:last-child,
+  td:last-child {
+    margin: 0 0 0 0;
+  }
+}
+
+.table-container {
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns: repeat(1fr);
+  width: auto;
+  text-align: center;
+  border: 1px solid #3d3d3d;
+  color: #aaa7a7;
+  margin: 30px 82px 30px 100px;
+  animation: drop 1s ease forwards;
+  @keyframes drop {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+th {
+  height: 36px;
+  background-color: black;
+}
+
+tr {
+  width: auto;
+}
+th:first-of-type,
+td:first-of-type {
+  text-align: left;
+  width: 45%;
+  padding-left: 26px;
+}
+
+tr:nth-child(even) {
+  background-color: #3d3d3d;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.meetify-table {
+  animation: drop 1s ease forwards;
+  @keyframes drop {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .action-button {
+    display: flex;
+    box-sizing: border-box;
+    background-color: #ee9100;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 9px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .action-button:hover {
+    display: flex;
+    box-sizing: border-box;
+    background-color: #ee9100;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 9px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.last-td {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+  button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    opacity: 0.3;
+  }
+}

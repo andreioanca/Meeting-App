@@ -1,0 +1,297 @@
+@media only screen and (max-width: 1600px) {
+  #login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 150px;
+    height: 100%;
+    padding: 50px 0 0 0;
+    animation: fade-global 1s ease forwards;
+
+    div:nth-child(2) {
+      font-size: 110px;
+      line-height: 100px;
+    }
+
+    .left-panel {
+      display: flex;
+      box-sizing: border-box;
+      justify-content: center;
+      align-items: center;
+      height: 80vh;
+      width: 40vw;
+
+      .login-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        border: 1px solid #909090;
+        color: white;
+        width: 550px;
+        height: auto;
+        gap: 20px;
+        text-align: left;
+        padding: 40px 0 40px 0;
+        margin: 90px 0 0 0;
+        .form {
+          display: grid;
+          width: 100%;
+          padding: 20px 30px 0 30px;
+        }
+
+        .show-confirm-password {
+          background-color: transparent;
+          position: relative;
+          right: 0px;
+          left: -30px !important;
+          bottom: -3px !important;
+          cursor: pointer;
+          transform: translate(480px, -30px);
+          z-index: 3;
+        }
+        .show-password {
+          background-color: transparent;
+          position: relative;
+          right: 0px;
+          left: -30px !important;
+          bottom: -3px !important;
+          cursor: pointer;
+          transform: translate(40px, -50px);
+        }
+
+        p:last-child {
+          color: #909090;
+          a {
+            color: #ffc132;
+            text-decoration: none;
+            font-weight: 500;
+          }
+        }
+        input[type="email"],
+        input[type="password"],
+        input[type="text"] {
+          width: 100% !important;
+          height: 45px;
+          padding: 10px;
+          margin: 5px 0 20px 0;
+          font-size: 13px;
+          border-width: 0px;
+          background-color: transparent;
+          color: #909090;
+          border-style: solid;
+          border-radius: 5px;
+          border: 1px solid #909090;
+        }
+
+        .remember-forgot {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          color: #909090;
+
+          h2 {
+            font-weight: 500;
+            color: #ffc132;
+          }
+          input[type="checkbox"] {
+            color: red;
+          }
+        }
+        #login-text {
+          width: 100%;
+          padding: 0 0 1% 17%;
+          text-align: left;
+          font-size: 15px;
+        }
+      }
+    }
+    .right-panel {
+      display: flex;
+      align-items: center;
+      color: white;
+      font-weight: 800;
+    }
+  }
+}
+
+#login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100%;
+  padding: 50px 0 0 0;
+
+  div:nth-child(2) {
+    font-size: 110px;
+    line-height: 100px;
+  }
+
+  .standard-or-admin {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    color: white;
+    margin-bottom: -140px;
+    button {
+      background-color: transparent;
+      cursor: pointer;
+      color: white;
+      border: none;
+      font-size: 15px;
+    }
+
+    button:hover {
+      opacity: 0.5;
+      transition: 0.6s;
+    }
+  }
+  .left-panel {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 40vw;
+
+    .login-section {
+      display: flex;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border-radius: 10px;
+      border: 1px solid #909090;
+      color: white;
+      width: 550px;
+      height: auto;
+      text-align: left;
+      padding: 40px 0 40px 0;
+      margin: 90px 0 0 0;
+
+      .show-confirm-password {
+        background-color: transparent;
+        position: relative;
+        right: 0px;
+        left: 395px;
+        bottom: 63px;
+        cursor: pointer;
+        transform: translate(480px, -30px);
+        z-index: 3;
+      }
+      .show-password {
+        background-color: transparent;
+        position: relative;
+        right: 0px;
+        left: 395px;
+        bottom: 63px;
+        cursor: pointer;
+        transform: translate(40px, -50px);
+      }
+
+      p:last-child {
+        color: #909090;
+        a {
+          color: #ffc132;
+          text-decoration: none;
+          font-weight: 500;
+        }
+      }
+      input[type="email"],
+      input[type="password"],
+      input[type="text"] {
+        width: 100%;
+        height: 45px;
+        padding: 10px;
+        margin: 5px 0 20px 0;
+        font-size: 13px;
+        border-width: 0px;
+        background-color: transparent;
+        color: #909090;
+        border-style: solid;
+        border-radius: 5px;
+        border: 1px solid #909090;
+      }
+
+      .remember-forgot {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #909090;
+        margin: 0 0 30px 0;
+        a {
+          text-decoration: none;
+          color: #ffc132;
+        }
+
+        span {
+          color: #ffc132;
+        }
+
+        a:hover {
+          text-decoration: none;
+          color: #ffc132;
+          cursor: pointer;
+        }
+        h2 {
+          font-weight: 500;
+          color: #ffc132;
+        }
+        input[type="checkbox"] {
+          color: red;
+        }
+      }
+      #login-text {
+        width: 100%;
+        padding: 0 0 1% 8%;
+        text-align: left;
+        font-size: 15px;
+      }
+      p:last-child {
+        margin: 30px 0 0 0;
+      }
+    }
+  }
+  .right-panel {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    color: white;
+  }
+}
+.login-succesfully-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  div:nth-child(1) {
+    font-size: 30px;
+    color: white;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #ffc132;
+    cursor: pointer;
+  }
+}
+
+.errMsg {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+  height: 5%;
+  background-color: red;
+  padding: 0 10px 0 10px;
+}

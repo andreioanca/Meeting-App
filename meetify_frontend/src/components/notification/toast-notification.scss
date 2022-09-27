@@ -1,0 +1,14 @@
+.success-notification {
+  background-color: #ffc132 !important;
+  color: #000000;
+
+  .Toastify__toast-icon {
+    svg {
+      fill: #ffc132;
+      background: black;
+      border-radius: 100%;
+      font-size: 12px;
+      width: 16px;
+    }
+  }
+}

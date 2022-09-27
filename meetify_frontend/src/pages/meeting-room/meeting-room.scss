@@ -1,0 +1,54 @@
+.h1-meeting {
+  font-size: 45px;
+  color: #ffffff;
+  margin: 55px 0 0 100px;
+  animation: drop 1s ease forwards;
+  @keyframes drop {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+.p-meeting {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 5vw 30px 100px;
+  color: #909090;
+  animation: drop 1s ease forwards;
+  @keyframes drop {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+.modal-container {
+  h2 {
+    color: white;
+    font-weight: 400;
+    padding-left: 25px;
+  }
+  .room-name-container {
+    color: #ffc132;
+    margin-left: 25px;
+    line-height: 17px;
+
+    .title-container {
+    }
+    div {
+      color: white;
+    }
+    .meeting-infos {
+      color: white;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}

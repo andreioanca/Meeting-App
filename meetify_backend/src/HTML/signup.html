@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meetify SignUp</title>
+    <link rel="stylesheet" href="signup-styles.css" />
+  </head>
+  <body>
+    <header><img id="logo-img" src="../tech-logo.png" alt="techquarter-logo" /></header>
+
+    <div id="login-page">
+      <div class="left-panel">
+        <div class="standard-user">
+          <!-- <h3>STANDARD USER</h3> -->
+          <p style="margin-bottom: 50px">SIGN UP</p>
+          <form action="/action_page.php">
+            <label for="name">Name</label><br />
+            <input type="text" id="name" name="name" placeholder="Enter name" /><br />
+
+            <label for="email">Email</label><br />
+            <input type="email" id="fname" name="fname" placeholder="Enter email" /><br />
+
+            <label for="password">Password</label><br />
+            <input type="password" id="password" name="password" placeholder="Min 8 characters, one capital letter, one number" /><br />
+
+            <label for="password">Confirm Password</label><br />
+            <input type="password" id="password" name="password" placeholder="Min 8 characters, one capital letter, one number" /><br />
+
+            <input type="checkbox" id="checkbox" name="checkbox" />
+            <label for="checkbox"
+              ><span style="color: #b0b0b0">I accept </span><a style="color: #f9c016" href="https://www.w3schools.com/about/about_copyright.asp">Terms And Conditions</a></label
+            ><br />
+
+            <input type="submit" value="Sign Up" />
+          </form>
+          <p style="text-align: center; color: #b0b0b0">Already A Member? Sign in <a style="color: #f9c016" href="./login.html">Here.</a></p>
+        </div>
+        <!-- <h3>ADMINISTRATOR</h3> -->
+        <div class="administrator" style="display: none">
+          <form action="/action_page.php">
+            <label for="fname">Email</label><br />
+            <input type="email" id="fname" name="fname" placeholder="Enter email" /><br />
+            <label for="lname">Password</label><br />
+            <input type="password" id="lname" name="lname" placeholder="Enter password" /><br />
+            <input type="checkbox" id="check" name="check" />
+            <label for="check">Remember me</label><br />
+            <input style="height: 40px; width: 70%" type="submit" value="Log In" />
+          </form>
+        </div>
+      </div>
+
+      <div class="right-panel">
+        <h1>
+          Welcome!<br />Let's create<br />
+          your account.
+        </h1>
+      </div>
+    </div>
+  </body>
+</html>
